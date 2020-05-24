@@ -15,15 +15,13 @@ merah = '\x1b[1;91m'
 gelap = '\x1b[0;37m'
 
 logo = """
-%s _     _
-| |__ (_)_ __ ___   __ _  __ _ _ __  ___
-| '_ \| | '__/ _ \ / _` |/ _` | '_ \/ __|
-| | | | | | | (_) | (_| | (_| | | | \__ \ 
-|_| |_|_|_|  \___/ \__, |\__,_|_| |_|___/
-                   |___/ 
-%s        %sAuthor %s: %sHiro Gans ID
-%s        %sGithub %s: %shttps://github.com/hirogans
-"""%(cyan,cyan, hijau,merah,putih,cyan,hijau,merah,putih)
+%s ___ _ __   __ _ _ __ ___  _ ___ _ __ ___  ___
+/ __| '_ \ / _` | '_ ` _ \| / __| '_ ` _ \/ __|
+\__ \ |_) | (_| | | | | | | \__ \ | | | | \__ \
+|___/ .__/ \__,_|_| |_| |_| |___/_| |_| |_|___/
+    | | %sAuthor %s: %sHiro Gans ID
+%s    |_| %sGithub %s: %shttps://github.com/HiroGans
+"""%(cyan,hijau,merah,putih,cyan,hijau,merah,putih)
 
 def main():
     os.system('clear')
